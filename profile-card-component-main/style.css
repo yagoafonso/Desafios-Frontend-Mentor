@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    background-color: hsl(185, 75%, 39%);
+    margin: 0;
+    padding: 0;
+}
+.rodope { 
+    font-size: 11px; 
+    text-align: center;     
+}
+.rodope a { 
+    color: hsl(228, 45%, 44%);
+
+}
+.container-main{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 98vh;
+}
+
+.card {
+    background-color: azure;
+    width: 350px;
+    height: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(images/bg-pattern-card.svg);
+}
+img{
+    margin-bottom: 70px;
+    border-radius: 50%;
+}
