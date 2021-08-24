@@ -4,6 +4,8 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* RODOPÉ DA PÁGINA */
 .rodope { 
     font-size: 11px; 
     text-align: center;     
@@ -23,14 +25,61 @@ body{
 
 .card {
     background-color: azure;
-    width: 350px;
-    height: 375px;
+    width: 300px;
+    height: 340px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
+}
+
+/* CAPA DA PÁGINA */
+.front-cover{
+    height: 150px;
+    background-color: aqua;
     background-image: url(images/bg-pattern-card.svg);
 }
-img{
-    margin-bottom: 70px;
-    border-radius: 50%;
+/* IMAGEM DO PERFIL */
+.profile-picture{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.photo {
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
+    border: 4px solid white;
+}
+/* INFORMAÇÕES DO NOME E IDADE */
+.card-name-age{
+    height: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-name-age p{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+/* CIDADE */
+.city{
+    text-align: center;
+    height: 40px;
+    margin: 0px;
+}
+
+/* INFORMAÇÕES DE MIDIA */
+.card-information{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.card-social{
+    
+    width: 100px;
 }
