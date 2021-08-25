@@ -3,14 +3,17 @@ body{
     background-color: hsl(185, 75%, 39%);
     margin: 0;
     padding: 0;
+    background-image: url("images/bg-pattern-top.svg"),url("images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 51vw bottom 40vh, left 49vw top 52vh;
 }
 
 /* RODOPÉ DA PÁGINA */
-.rodope { 
+footer { 
     font-size: 11px; 
     text-align: center;     
 }
-.rodope a { 
+footer a { 
     color: hsl(228, 45%, 44%);
 
 }
@@ -25,24 +28,25 @@ body{
 
 .card {
     background-color: azure;
-    width: 300px;
+    width: 320px;
     height: 340px;
     display: flex;
     flex-direction: column;
+    border-radius: 20px;
 }
 
 /* CAPA DA PÁGINA */
 .front-cover{
-    height: 150px;
-    background-color: aqua;
+    height: 130px;
     background-image: url(images/bg-pattern-card.svg);
+    border-radius: 20px 20px 0px 0px;
 }
 /* IMAGEM DO PERFIL */
 .profile-picture{
     position: absolute;
-    margin-top: 90px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 70px;
+    margin-left: 110px;
+    margin-right: 110px;
 }
 .photo {
     height: 90px;
@@ -58,28 +62,70 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .card-name-age p{
-    margin-top: 60px;
+    margin-top: 80px;
     margin-left: 10px;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+.age{
+    font-size: 18px;
+    font-weight: 400;
+    color: hsl(227, 10%, 46%);
 }
 /* CIDADE */
 .city{
     text-align: center;
-    height: 40px;
+    height: 45px;
     margin: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif;
+    color: hsl(227, 10%, 46%);
 }
 
-/* INFORMAÇÕES DE MIDIA */
+/* INFORMAÇÕES DE SOCIAL MIDIA */
 .card-information{
-    height: 70px;
+    height: 79px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     text-align: center;
+    border-top: 1px solid #e8e9ec;
+    border-bottom: 0px ;
 }
 .card-social{
-    
-    width: 100px;
+    width: 106px;
+
+}
+.card-social p{
+
+    font-family: 'Kumbh Sans', sans-serif;    
+}
+
+.counts{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: 700;  
+}
+.types {
+    font-size: 10px;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-top: -15px;  
+ }
+
+ @media screen and (max-width: 375px) {
+    main {
+      width: 326px;
+      max-width: 326px;
+    }
+    body {
+      background-position: right 40vw bottom 40vh, left 40vw top 40vh;
+    }
 }
