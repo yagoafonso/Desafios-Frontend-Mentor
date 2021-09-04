@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(0, 0%, 95%);
+}
+.container {
+    display: flex;
+    /* flex-direction:  */
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 95vh;
+}
+.card {
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+#sedans {
+    background-color:  hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+#luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+/* Rodapé */
+footer {    font-size: 11px; 
+            text-align: center;
+}
+footer a {  color: hsl(228, 45%, 44%); 
+}
