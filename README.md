@@ -11,9 +11,10 @@
 |  Nº  | Nome do Projeto                                                                                                |
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 |  1   | [Profile card component](https://profile-card-component-main-murex-chi.vercel.app/)                            |
+|  2   | [3 column preview card component main](https://3-column-preview-card-component-main-mu-ten.vercel.app/)        |
+ 
 
 ## Author
 
 - Frontend Mentor - [@yagoafonso](https://www.frontendmentor.io/profile/yagoafonso)
-- Twitter - [@yagoafonso3](https://www.twitter.yagoafonso3)
 - Linkedin - [@yago-afonso](https://www.linkedin.com/in/yago-afonso/)
