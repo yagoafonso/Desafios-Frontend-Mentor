@@ -3,40 +3,99 @@ body{
 }
 .container {
     display: flex;
-    /* flex-direction:  */
     align-items: center;
     justify-content: center;
     width: auto;
     height: 95vh;
 }
 .card {
-    width: 200px;
-    height: 300px;
-    text-align: center;
+    width: 255px;
+    height: 420px;
 }
+
+img {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
 #sedans {
     background-color:  hsl(31, 77%, 52%);
     border-radius: 10px 0px 0px 10px;
 }
+
 #suvs {
     background-color: hsl(184, 100%, 22%);
 }
+
 #luxury{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0px 10px 10px 0px;
 }
+
 h1{
     font-family: 'Big Shoulders Display', cursive;
     color: hsl(0, 0%, 95%);
+    padding-left: 40px;
 }
+
 p{
+    padding-left: 40px;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
+    font-weight: 400; 
     color:  hsla(0, 0%, 100%, 0.75);
+    opacity: .75;
+    width: 200px;
+    line-height: 20px;
 }
+
+button{
+    width: 120px;
+    min-height: 40px;
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-left: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Lexend Deca', sans-serif;
+}
+button:hover {
+    color: var(--white);
+    border: 2px solid white;
+    background-color: transparent;
+}
+
 /* Rodapé */
 footer {    font-size: 11px; 
             text-align: center;
 }
 footer a {  color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 1000px) {
+
+    .container{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .card{
+        margin: 0;
+        width: 255px;
+        height: 380px;
+    }
+    #sedans{
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 40px;
+    }
+
+    #luxury{
+        border-radius: 0px 0px 10px 10px;
+        margin-bottom: 60px;
+    }
+    
+    button {
+        margin-top: 20px;
+    }
 }
