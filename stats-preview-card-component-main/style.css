@@ -119,6 +119,8 @@ img{
     main {
         display: flex;
         flex-direction: column;
+        height: 95vh;
+        width: 375px;
     }
     .image-container{
         width: 330px;
