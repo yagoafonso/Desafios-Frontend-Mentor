@@ -12,6 +12,7 @@
 | ---- | -------------------------------------------------------------------------------------------------------------- |
 |  1   | [Profile card component](https://profile-card-component-main-murex-chi.vercel.app/)                            |
 |  2   | [3 column preview card component main](https://3-column-preview-card-component-main-mu-ten.vercel.app/)        |
+|  3   | [stats preview card component main](https://desafios-frontend-mentor-ten.vercel.app/)                          |
  
 
 ## Author
